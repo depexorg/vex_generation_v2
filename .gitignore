@@ -1,0 +1,15 @@
+# Visual Studio Code / Enviroment
+.vscode
+.envrc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Zips
+*.zip
+
+# Ruff linter cache
+.ruff_cache
+
+# VEXGen environment
+vexenv
